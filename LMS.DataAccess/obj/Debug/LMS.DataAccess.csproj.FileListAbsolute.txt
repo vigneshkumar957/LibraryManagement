@@ -1,0 +1,17 @@
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LMS.DataAccess.csproj.AssemblyReference.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LMS.DataAccess.csproj.CoreCompileInputs.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.dll.config
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\EntityFramework.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\DataAccess.dll.config
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\EntityFramework.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LMS.DataAccess.csproj.CopyComplete
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LMS.DataAccess.Migrations.InitialSetup.resources
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Debug\LMS.DataAccess.csproj.GenerateResource.cache
