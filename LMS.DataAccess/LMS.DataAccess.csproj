@@ -62,9 +62,9 @@
     <Compile Include="Entities\RentParticipant.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\User.cs" />
-    <Compile Include="Migrations\202312081406024_InitialSetup.cs" />
-    <Compile Include="Migrations\202312081406024_InitialSetup.designer.cs">
-      <DependentUpon>202312081406024_InitialSetup.cs</DependentUpon>
+    <Compile Include="Migrations\202312090630030_NewSetup.cs" />
+    <Compile Include="Migrations\202312090630030_NewSetup.designer.cs">
+      <DependentUpon>202312090630030_NewSetup.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,8 +91,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202312081406024_InitialSetup.resx">
-      <DependentUpon>202312081406024_InitialSetup.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202312090630030_NewSetup.resx">
+      <DependentUpon>202312090630030_NewSetup.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

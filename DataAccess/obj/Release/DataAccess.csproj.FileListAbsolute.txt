@@ -1,0 +1,12 @@
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\DataAccess.dll.config
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\EntityFramework.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\EntityFramework.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\obj\Release\DataAccess.csproj.AssemblyReference.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\obj\Release\DataAccess.csproj.CoreCompileInputs.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\obj\Release\DataAccess.csproj.CopyComplete
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\obj\Release\DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\DataAccess\obj\Release\DataAccess.pdb

@@ -1,0 +1,17 @@
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\LibraryManagementSystem.DataAccess.dll.config
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\LibraryManagementSystem.DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\LibraryManagementSystem.DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\EntityFramework.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\DataAccess.pdb
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\DataAccess.dll.config
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\EntityFramework.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LMS.DataAccess.csproj.AssemblyReference.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LMS.DataAccess.Migrations.NewSetup.resources
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LMS.DataAccess.csproj.GenerateResource.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LMS.DataAccess.csproj.CoreCompileInputs.cache
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LMS.DataAccess.csproj.CopyComplete
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LibraryManagementSystem.DataAccess.dll
+E:\Vignesh_Projects\Cloud\Library\LMS\LMS.DataAccess\obj\Release\LibraryManagementSystem.DataAccess.pdb
