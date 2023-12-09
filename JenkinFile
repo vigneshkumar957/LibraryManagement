@@ -1,0 +1,37 @@
+pipeline {  
+ agent any  
+ environment {  
+  dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'  
+ }  
+ stages {  
+  stage('Checkout') {  
+   steps {
+       git credentialsId: 'ddcef805-801c-4f33-9b5c-2bc87d9b0ea0', url: 'https://github.com/vigneshkumar-957/LibraryManagement_1.git', branch: 'main'
+   }  
+  }  
+ stage('Build') {  
+   steps {  
+    bat 'dotnet build %WORKSPACE%\\LMS.sln --configuration Release' 
+   }  
+  }  
+  stage("Release"){
+      steps {
+      bat 'dotnet build  %WORKSPACE%\\jenkins-demo\\LMS.sln /p:PublishProfile=" %WORKSPACE%\\LMS\\Properties\\PublishProfiles\\JenkinsProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+    }
+  }
+  
+  stage('Deploy') {
+    steps {
+    // Stop IIS
+    bat 'net stop "w3svc"'
+    
+    // Deploy package to IIS
+    bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\LMS\\bin\\app.publish\\LMS.zip" -dest:auto -setParam:"IIS Web Application Name"="LibrarySystem" -skip:objectName=filePath,absolutePath=".\\\\PackageTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
+    
+    // Start IIS again
+    bat 'net start "w3svc"'
+    }
+ }
+
+ }  
+} 
