@@ -1,7 +1,8 @@
 pipeline {  
  agent any  
  environment {  
-  dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'  
+  dotnet = '"C:\\Program Files\\dotnet\\dotnet.exe"'  
+  msbuild = '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe"'
  }  
  stages {  
   stage('Checkout') {  
@@ -11,12 +12,12 @@ pipeline {
   }  
  stage('Build') {  
    steps {  
-    bat 'dotnet build %WORKSPACE%\\LMS.sln --configuration Release' 
+    bat '%msbuild% %WORKSPACE%\\LMS.sln /property:Configuration=Release' 
    }  
   }  
   stage("Release"){
       steps {
-      bat 'dotnet build  %WORKSPACE%\\jenkins-demo\\LMS.sln /p:PublishProfile=" %WORKSPACE%\\LMS\\Properties\\PublishProfiles\\JenkinsProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+      bat '%dotnet% build  %WORKSPACE%\\jenkins-demo\\LMS.sln /p:PublishProfile=" %WORKSPACE%\\LMS\\Properties\\PublishProfiles\\JenkinsProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
     }
   }
   
