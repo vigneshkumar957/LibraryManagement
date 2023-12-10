@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/LMS_deploy" />
+  <setParameter name="LMS-Web.config Connection String" value="Data Source=54.236.27.15;User ID=libuser;Password=sqlpass;Initial Catalog=LMS.mdf;Encrypt=False;MultipleActiveResultSets=True" />
+</parameters>

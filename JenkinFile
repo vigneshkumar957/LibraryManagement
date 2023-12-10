@@ -17,20 +17,20 @@ pipeline {
   }  
   stage("Release"){
       steps {
-      bat '%dotnet% build  %WORKSPACE%\\jenkins-demo\\LMS.sln /p:PublishProfile=" %WORKSPACE%\\LMS\\Properties\\PublishProfiles\\JenkinsProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+      bat '%msbuild%  %WORKSPACE%\\LMS.sln /T:"LMS" /property:Configuration=Release /P:DeployOnBuild=true /P:PublishProfile="%WORKSPACE%\\LMS\\Properties\\PublishProfiles\\JenkinsProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
     }
   }
   
   stage('Deploy') {
     steps {
     // Stop IIS
-    bat 'net stop "w3svc"'
+    bat 'net stop "w3svc" /y'
     
     // Deploy package to IIS
-    bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\LMS\\bin\\app.publish\\LMS.zip" -dest:auto -setParam:"IIS Web Application Name"="LibrarySystem" -skip:objectName=filePath,absolutePath=".\\\\PackageTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
+    bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\LMS\\obj\\Release\\Package\\LMS.zip" -dest:auto -setParam:"IIS Web Application Name"="LibrarySystem" -skip:objectName=filePath,absolutePath=".\\\\PackageTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
     
     // Start IIS again
-    bat 'net start "w3svc"'
+    bat 'net start "w3svc" /y'
     }
  }
 
